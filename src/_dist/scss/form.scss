@@ -1,0 +1,46 @@
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=search],
+select,
+selector{
+  width: 100%;
+  padding: .5rem 1rem;
+  border: 1px var(--bg) solid;
+  border-radius: 10px;
+  background: transparent;
+
+  &:focus{
+    border: 1px var(--orange) solid;
+  }
+}
+
+input[type=checkbox]{
+  border: 1px var(--orange) solid;
+  border-radius: 10px;
+  padding: .5rem;
+
+  &:checked{
+    background: var(--orange);
+  }
+}
+
+
+.form-group{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+textarea{
+  width: 100%;
+  padding: .5rem 1rem;
+  border: 1px var(--bg) solid;
+  border-radius: 10px;
+  background: transparent;
+  resize: none;
+
+  &:focus{
+    border: 1px var(--orange) solid;
+  }
+
+}

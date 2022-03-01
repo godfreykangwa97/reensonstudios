@@ -1,0 +1,69 @@
+.btn{
+  padding: .5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+.icon-btn{
+  border: none;
+  background: transparent;
+  span{
+    margin-left: 10px;
+  }
+}
+
+.login-btn{
+  margin-top: 20px;
+  background: var(--main);
+  color: var(--orange);
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.submit-btn,
+.sign-up-btn{
+  background: var(--orange);
+  color: var(--light);
+  display: block;
+  border-radius: 5px;
+}
+
+.reset-btn{
+  background: var(--main);
+  color: var(--light);
+  display: block;
+  border-radius: 5px;
+}
+
+.learn-btn{
+   background: var(--orange);
+   color: var(--light);
+   border-radius: 5px;
+ }
+
+.continue-btn{
+  background: var(--main);
+  color: var(--light);
+  border-radius: 5px;
+}
+
+.plain-btn{
+  border: none;
+  background: transparent;
+}
+
+.pagination-btn{
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--light);
+}
+
+.active{
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--orange);
+}
