@@ -582,6 +582,9 @@ body {
   .newsletter input {
     width: 100%; }
 
+  .diamond .diamond-form {
+    grid-template-columns: 100%; }
+
   .footer .grid-4 {
     grid-template-columns: repeat(3, 1fr); }
   .footer h1 {

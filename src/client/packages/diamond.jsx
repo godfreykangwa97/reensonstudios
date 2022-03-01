@@ -12,8 +12,9 @@ const PackageDiamond = () => {
                      <h5>Package</h5>
                      <p>Recommended for weddings</p>
                  </div>
-                 <div className="grid-2">
-                    <div className="info">
+                 <div className="grid-2 diamond-form">
+
+                     <div className="info">
                         <ul className="display-flex flex-column gap-1rem  margin-top-2rem padding-top-bottom-2rem">
                             <li><i className="fas fa-circle orange"/><span className="margin-left-20">200 soft copies</span></li>
                             <li><i className="fas fa-circle orange"/><span className="margin-left-20">30 printed</span></li>
@@ -21,12 +22,13 @@ const PackageDiamond = () => {
                             <li><i className="fas fa-circle orange"/><span className="margin-left-20">full video</span></li>
                             <li><i className="fas fa-circle orange"/><span className="margin-left-20">8hrs +</span></li>
                         </ul>
-                        <h1>K 4,000</h1>
+                        <h1>K 5,000</h1>
                         <div className="form-group">
                             <h3>TERMS & CONDITIONS</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi doloremque laborum necessitatibus quaerat quia quibusdam, tenetur velit. Impedit, repudiandae.</p>
                         </div>
                     </div>
+
                      <form action="" className="padding-20">
                          <div className="form-group grid-2">
                             <div className="form-group">
@@ -70,6 +72,7 @@ const PackageDiamond = () => {
                              <button className="btn submit-btn">Proceed</button>
                          </div>
                      </form>
+
                  </div>
                  <div className="closing">
                      <h1>You are making an appointment</h1>

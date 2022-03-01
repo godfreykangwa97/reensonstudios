@@ -53,7 +53,7 @@ const  HomePackages = () => {
                            <div>
                                <small>Recommended for kitchen party</small>
                            </div>
-                            <Link to="" className="orange"><span>Book</span><i className="fas fa-arrow-right margin-left-10"/></Link>
+                            <Link to="/packages/diamond/" className="orange"><span>Book</span><i className="fas fa-arrow-right margin-left-10"/></Link>
                         </div>
                     </div>
 
@@ -76,7 +76,7 @@ const  HomePackages = () => {
                             <div>
                                 <small>Recommended for chilanga mulilo</small>
                             </div>
-                            <Link to="" className="orange"><span>Book</span><i className="fas fa-arrow-right margin-left-10"/></Link>
+                            <Link to="/packages/diamond/" className="orange"><span>Book</span><i className="fas fa-arrow-right margin-left-10"/></Link>
                         </div>
                     </div>
 
@@ -99,7 +99,7 @@ const  HomePackages = () => {
                             <div>
                                 <small>Recommended for parties and other events</small>
                             </div>
-                            <Link to="" className="orange"><span>Book</span><i className="fas fa-arrow-right margin-left-10"/></Link>
+                            <Link to="/packages/diamond/" className="orange"><span>Book</span><i className="fas fa-arrow-right margin-left-10"/></Link>
                         </div>
                     </div>
                 </div>
