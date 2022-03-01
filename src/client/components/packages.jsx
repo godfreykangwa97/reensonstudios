@@ -30,7 +30,7 @@ const  HomePackages = () => {
                             <div>
                                 <small>Recommended for weddings</small>
                             </div>
-                            <Link to="" className="orange"><span>Book</span><i className="fas fa-arrow-right margin-left-10"/></Link>
+                            <Link to="/packages/diamond/" className="orange"><span>Book</span><i className="fas fa-arrow-right margin-left-10"/></Link>
                         </div>
                     </div>
 

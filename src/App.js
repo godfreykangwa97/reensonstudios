@@ -7,6 +7,7 @@ import Works from "./client/pages/works";
 import Contact from "./client/pages/contact";
 import About from "./client/pages/about";
 import Services from "./client/pages/services";
+import PackageDiamond from "./client/packages/diamond";
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact={true} path="/contact"  history={useHistory} component={Contact}/>
         <Route exact={true} path="/services"  history={useHistory} component={Services}/>
         <Route exact={true} path="/about"  history={useHistory} component={About}/>
+        <Route exact={true} path="/packages/diamond"  history={useHistory} component={PackageDiamond}/>
       </Switch>
     </div>
   );

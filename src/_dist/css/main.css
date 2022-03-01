@@ -74,6 +74,8 @@ input[type=text],
 input[type=password],
 input[type=email],
 input[type=search],
+input[type=time],
+input[type=date],
 select,
 selector {
   width: 100%;
@@ -85,6 +87,8 @@ selector {
   input[type=password]:focus,
   input[type=email]:focus,
   input[type=search]:focus,
+  input[type=time]:focus,
+  input[type=date]:focus,
   select:focus,
   selector:focus {
     border: 1px var(--orange) solid; }
@@ -466,6 +470,11 @@ body {
   background: var(--light); }
   .newsletter input {
     width: 300px; }
+
+.diamond {
+  background: var(--light); }
+  .diamond form {
+    border-radius: 20px; }
 
 .footer {
   background: var(--orage-faded); }

@@ -284,6 +284,12 @@ body{
     width: 300px;
   }
 }
+.diamond{
+ background: var(--light);
+  form{
+    border-radius: 20px;
+  }
+}
 .footer{
   background: var(--orage-faded);
   .footer-nav{
