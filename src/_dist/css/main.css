@@ -472,13 +472,19 @@ body {
     width: 300px; }
 
 .diamond,
-.gold {
+.gold,
+.silver,
+.bronze {
   background: var(--light); }
   .diamond form,
-  .gold form {
+  .gold form,
+  .silver form,
+  .bronze form {
     border-radius: 20px; }
     .diamond form small,
-    .gold form small {
+    .gold form small,
+    .silver form small,
+    .bronze form small {
       display: none;
       color: #c6c6c6; }
 

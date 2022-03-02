@@ -1,0 +1,31 @@
+[debug] [2022-03-02T06:30:23.449Z] ----------------------------------------------------------------------
+[debug] [2022-03-02T06:30:23.458Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\godfr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-03-02T06:30:23.459Z] CLI Version:   10.1.5
+[debug] [2022-03-02T06:30:23.460Z] Platform:      win32
+[debug] [2022-03-02T06:30:23.460Z] Node Version:  v14.17.5
+[debug] [2022-03-02T06:30:23.463Z] Time:          Wed Mar 02 2022 08:30:23 GMT+0200 (Central Africa Time)
+[debug] [2022-03-02T06:30:23.464Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-02T06:30:23.756Z] Object ".hosting" in "firebase.json" has unknown property: {"additionalProperty":"firestore"}
+[debug] [2022-03-02T06:30:23.757Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
+[debug] [2022-03-02T06:30:23.758Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2022-03-02T06:30:23.774Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-02T06:30:23.775Z] > authorizing via signed-in user (godfreykangwa97@gmail.com)
+[debug] [2022-03-02T06:30:23.779Z] Object ".hosting" in "firebase.json" has unknown property: {"additionalProperty":"firestore"}
+[debug] [2022-03-02T06:30:23.779Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
+[debug] [2022-03-02T06:30:23.779Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\godfr\Documents\MEGAsync\websites\rs
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
