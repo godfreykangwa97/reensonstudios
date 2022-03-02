@@ -284,9 +284,14 @@ body{
     width: 300px;
   }
 }
-.diamond{
+.diamond,
+.gold{
  background: var(--light);
   form{
+    small{
+      display: none;
+      color: #c6c6c6;
+    }
     border-radius: 20px;
   }
 }
@@ -434,8 +439,14 @@ body{
       width: 100%;
     }
   }
-  .diamond{
-    .diamond-form{
+  .diamond,
+  .gold,
+  .silver,
+  .bronze{
+    .diamond-form,
+    .gold-form,
+    .silver-form,
+    .bronze-form{
       grid-template-columns: 100%;
     }
   }

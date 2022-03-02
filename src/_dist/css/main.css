@@ -471,10 +471,16 @@ body {
   .newsletter input {
     width: 300px; }
 
-.diamond {
+.diamond,
+.gold {
   background: var(--light); }
-  .diamond form {
+  .diamond form,
+  .gold form {
     border-radius: 20px; }
+    .diamond form small,
+    .gold form small {
+      display: none;
+      color: #c6c6c6; }
 
 .footer {
   background: var(--orage-faded); }
@@ -582,7 +588,22 @@ body {
   .newsletter input {
     width: 100%; }
 
-  .diamond .diamond-form {
+  .diamond .diamond-form,
+  .diamond .gold-form,
+  .diamond .silver-form,
+  .diamond .bronze-form,
+  .gold .diamond-form,
+  .gold .gold-form,
+  .gold .silver-form,
+  .gold .bronze-form,
+  .silver .diamond-form,
+  .silver .gold-form,
+  .silver .silver-form,
+  .silver .bronze-form,
+  .bronze .diamond-form,
+  .bronze .gold-form,
+  .bronze .silver-form,
+  .bronze .bronze-form {
     grid-template-columns: 100%; }
 
   .footer .grid-4 {

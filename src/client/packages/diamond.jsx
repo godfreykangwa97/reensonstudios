@@ -30,6 +30,7 @@ const PackageDiamond = () => {
                     </div>
 
                      <form action="" className="padding-20">
+                         <small>What is your name</small>
                          <div className="form-group grid-2">
                             <div className="form-group">
                                 <input type="text" placeholder="First name"/>
@@ -39,28 +40,34 @@ const PackageDiamond = () => {
                              </div>
                          </div>
                          <div className="form-group">
+                             <small>You are booking for</small>
                              <select name="" id="">
                                  <option value="">Wedding</option>
                              </select>
                          </div>
                          <div className="form-group">
+                             <small>How do we reach you</small>
                              <input type="text" placeholder="phone number"/>
                          </div>
 
                          <div className="form-group grid-2">
                              <div className="form-group">
+                                 <small>What time is the event starting</small>
                                  <input type="time"/>
                              </div>
                              <div className="form-group">
+                                 <small>What time is the event ending</small>
                                  <input type="time"/>
                              </div>
                          </div>
 
                          <div className="form-group">
+                             <small>When will be the event</small>
                              <input type="date" placeholder=""/>
                          </div>
 
                          <div className="form-group">
+                             <small>The event will be held at</small>
                              <input type="text" placeholder="venue"/>
                          </div>
 

@@ -8,6 +8,9 @@ import Contact from "./client/pages/contact";
 import About from "./client/pages/about";
 import Services from "./client/pages/services";
 import PackageDiamond from "./client/packages/diamond";
+import PackageGold from "./client/packages/gold";
+import PackageSilver from "./client/packages/silver";
+import PackageBronze from "./client/packages/bronze";
 
 
 
@@ -22,6 +25,9 @@ const App = () => {
         <Route exact={true} path="/services"  history={useHistory} component={Services}/>
         <Route exact={true} path="/about"  history={useHistory} component={About}/>
         <Route exact={true} path="/packages/diamond"  history={useHistory} component={PackageDiamond}/>
+        <Route exact={true} path="/packages/gold"  history={useHistory} component={PackageGold}/>
+        <Route exact={true} path="/packages/silver"  history={useHistory} component={PackageSilver}/>
+        <Route exact={true} path="/packages/bronze"  history={useHistory} component={PackageBronze}/>
       </Switch>
     </div>
   );
